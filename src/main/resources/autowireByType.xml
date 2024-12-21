@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="specification" class="car.example.autowire.type.Specification">
+        <property name="make" value="BMW" />
+        <property name="model" value="A2" />
+    </bean>
+
+    <bean id="myCar" class="car.example.autowire.type.Car" autowire="byType">
+
+    </bean>
+
+</beans>
+
+<!--when autowiring byName you must have the setter and id of the bean should match the name-->
+<!--when autowiring byType name of id doesn't matter it will look for the class Type-->

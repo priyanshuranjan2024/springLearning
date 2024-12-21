@@ -1,0 +1,58 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+target/
+
+### Maven ###
+log/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Application Specific ###
+application.properties
+application.yml
+*.db
+*.sql
+data/
+
+### Temporary Files ###
+*.tmp
+*.bak
+~$*
+*.swp
+*.swo
+*.orig
